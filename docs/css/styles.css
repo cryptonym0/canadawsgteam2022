@@ -11321,7 +11321,7 @@ video.bg-video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../assets/img/bg-mobile-fallback.jpg") #bd0c0c no-repeat center center scroll;
+    background: url("../assets/img/dex2.jpg") #bd0c0c no-repeat center center scroll;
     background-size: cover;
   }
 
