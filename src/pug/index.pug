@@ -27,6 +27,10 @@ html(lang='en')
                     p.mb-5
                         | Sign up below to receive updates and to be notified when we relaunch!
 
+                    .text-center(id="script_widget_button")
+                        a.btn.btn-primary.btn-xl.btn-round(href="https://my.charitableimpact.com/groups/world-skate-games-team-canada-2022") Donate Now
+                        //script(type="text/javascript", src="https://my.charitableimpact.com/widget/js/loader.js?MjIyNjIsbGFyZ2UsYmx1ZSxXb3JsZCBTa2F0ZSBHYW1lcyBUZWFtIENhbmFk%0AYSAyMDIyLGdyb3Vw%0A", id="chimp-button-script")
+
                     form#contactForm(data-sb-form-api-token='6d3a1392-1d8c-4126-9b67-f11dcdf2121e')
                         // Email address input
                         .row.input-group-newsletter
@@ -53,6 +57,7 @@ html(lang='en')
 
                         #submitErrorMessage.d-none
                             .text-center.text-danger.mb-3.mt-2 Error sending message!
+
 
         // Social Icons
         // For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands
